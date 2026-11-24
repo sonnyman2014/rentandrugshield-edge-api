@@ -348,8 +348,10 @@ async function scanToken12Layer(env, mintRaw) {
     freeze_authority: freezeAuth,
     is_dead_pool: liqUsd < 500 && !isCanonicalStable,
     liquidity_viability_passed: liqUsd >= 5000 || isCanonicalStable,
+    token_program: isToken2022 ? "token-2022" : "spl-token",
     layers_active: 12,
-    layers
+    layers,
+    checks: layers
   };
 }
 
