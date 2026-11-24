@@ -1,0 +1,7 @@
+{
+  "name": "rentandrugshield-edge-api",
+  "version": "1.0.2",
+  "private": true,
+  "type": "module",
+  "description": "24/7 serverless edge API for Solana Rent & Rug Shield (read-only 0x09 wallet rent scanner, 12-layer token rug scanner, and Streamable HTTP /mcp)"
+}
